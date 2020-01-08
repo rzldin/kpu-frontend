@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+body {
+    font-family: Roboto-Regular; 
+	font-familys: Tahoma,'Microsoft Yahei',Simsun,sans-serif;
+    /* background-color: #FFF; */
+    background-image: url(../image/background.jpg);
+    background-size: 100%;
+	background-rjepeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 99px 0 ;
+}
+
+.navbar {
+    padding: 0;
+	background: #ff5e00!important;
+	box-shadow: 0 2px 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #FFF;
+    font-family: Roboto-Medium;
+    font-size: 13px;
+    padding: 40px 15px;
+    /* border-left: 1px solid #73a2a0; */
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link:hover {
+    background-color: #c36d06;
+    font-family: Roboto-Medium;
+    font-size: 13px;
+    padding: 40px 15px;
+    /* border-left: 1px solid #73a2a0; */
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 0;
+    font-family: Roboto-Medium;
+    background: #FFF;
+}
+
+.navbar-toggler {
+	background: #ddd;
+}
+
+.col-costum {
+	padding: 1px;
+}
+
+.nav-tabs a.nav-link {
+    color: #495057;
+	font-family: Roboto-Bold;
+    background-color: transparent;
+    border-color: transparent;	
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #FFF;
+	font-family: Roboto-Bold;
+    background-color: #7c7f82;
+    border-color: transparent;
+	border-radius: 0;
+
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    color: #FFF;
+	font-family: Roboto-Bold;
+    background-color: #495057;
+    border-color: transparent;
+	border-radius: 0;
+}
+
+.carousel-item {
+	background-size: 100%; 
+	background-position: center; 
+	backgroundk-attachment: fixed; 
+	height: 450px;
+}
+
+.carousel-item::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+.panel-deskripsi {
+    position: absolute;
+    width: 50%;
+    max-height: 220px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+    right: 0%;
+    top: 46%;	
+}
+
+.judul-deskripsi a {
+	font-family: Roboto-Bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+	color: #FFF;
+}
+
+.isi-deskripsi {
+	font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 158px;
+	color: #FFF;
+}
+
+.panel-konten {
+	width: 100%;
+}
+
+.panel-thumb {
+	width: 100%;
+	height: 157px;
+    background-size: 130%;
+    background-position: center;
+}
+
+.panel-desk-konten {
+	padding: 5px;
+}
+
+.judul-konten {
+	font-size: 17px;
+    font-family: Roboto-Bold;
+	color : #000
+}
+
+.judul-hitung {
+	font-size: 25px;
+    font-family: Roboto-Bold;
+}
+
+.isi-konten {
+	font-size: 13px;
+}
+
+.container-konten {
+	padding: 25px 0;
+}
+
+.kotak-waktu {
+	width: 65px;
+    height: 65px;
+    background: #00a2d3;
+}
+
+.btn-waktu {
+	border-radius: 0;
+    font-size: 35px;
+    font-family: Roboto-Bold;
+	margin-bottom: 10px;
+}
